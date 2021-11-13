@@ -35,7 +35,7 @@ try {
   // --------------------------------------------------
   // When invoked with no numbers, it should return 0.
   var result = difference();
-  if (result !== 0) throw new Error('Expected difference() to be 1. Received: ' + result);
+  if (result !== 0) throw new Error('Expected difference() to be 0. Received: ' + result);
 
   console.log('All tests passed successfully.');
 
