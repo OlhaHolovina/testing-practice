@@ -19,7 +19,18 @@ function quotient(number1 = 0, number2 = 1) {
 }
 
 function calc(operation, number1, number2) {
-
+  switch(operation) {
+    case 'add':
+      return sum(number1, number2);
+    case 'subtract':
+      return difference(number1, number2);
+    case 'multiply':
+      return product(number1, number2);
+    case 'divide':
+      return quotient(number1, number2);
+    default:
+      return 'Operation not supported.';
+  }
 }
 
 // ==================================================
